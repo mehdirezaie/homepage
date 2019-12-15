@@ -7,12 +7,13 @@
 
 -->
 <html lang="en">
-<title>W3.CSS Template</title>
+<title>Mehdi Rezaie's homepage</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 <style>
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
@@ -79,30 +80,41 @@ body {font-family: "Lato", sans-serif}
   </div>
   -->
 
-  <!-- The Band Section -->
+  <!-- The Who am I Section -->
 
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="research">
     <h2 class="w3-wide">Who am I?</h2>
     <p class="w3-opacity"><i>A Cosmologist!</i></p>
-    <p class="w3-justify">I am a fifth year graduate student in physics at Ohio University. My PhD dissertation is focused on developing a new method based on Artificial Neural Networks to mitigate the systematic effects that introduce spurious fluctuations into our large scale clustering measurements, a pivotal step to get a robust constraint on the nature of Dark Energy. I am interested in Cosmology, Data Analysis, Data Visualization, Amateur Astronomy, History and Nutritions. <a href="./cv.pdf" target="_blank">See my CV</a></p>
+    <p class="w3-justify">
+
+
+I am a fifth-year graduate student in physics at Ohio University. My Ph.D. dissertation is focused on developing a new method based on Artificial Neural Networks to mitigate the systematic effects that introduce spurious fluctuations into our large scale clustering measurements, a pivotal step to get a robust constraint on the nature of Dark Energy. I am interested in Cosmology, Data Analysis, Data Visualization, Amateur Astronomy, History, and Nutritions (<a href="./cv.pdf" target="_blank">see my CV</a>).
+
+<br><br>
+
+<b>Collaboration Memberships</b>: <br>
+
+• SDSS-IV Extended Baryon Oscillation Spectroscopic Survey (eBOSS) Galaxy Quasar Clustering working group (2017-present): I have worked on the identification and mitigation of imaging systematics; helped with the quality assurance and tests of the systematics of the clustering catalogs of emission-line galaxies (ELG) and quasars. I have also provided a survey selection function to simulate imaging systematics in the mock ELG catalogs. Recently, my primary contribution concentrates on the mitigation of systematic error for the DR16 quasar sample and the primordial non-Gaussianity measurement.<br> 
+
+<br>
+• Dark Energy Spectroscopic Instrument (DESI)
+Galaxy Quasar Clustering and Imaging Validation working groups (2016-present): I have contributed to the analysis centering around the characterization and mitigation of foreground contaminations in the photometric catalogs of emission-line galaxies and luminous red galaxies from the DESI Legacy Surveys data. I have helped with observing for a total of 17 nights at the Kitt Peak National Observatory, Arizona. I have also been involved in the analysis of mock data (e.g., quicksurvey in 2017). My recent contribution focuses on the impact of imaging systematics on the measurements of baryon acoustic oscillations (BAO) and redshift-space distortions (RSD) with mock data.
+
+</p>
     
-    <!--
+
     <div class="w3-row w3-padding-32">
-      <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      <div class="w3-half">
+        <p>Dark Energy</p>
+        <img src="./w3images/smoothing.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:90%">
       </div>
-      <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
-      </div>
-      <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      <div class="w3-half">
+        <p>Galaxy Clustering</p>
+        <img src="./w3images/decals.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:90%">
       </div>
     </div>
-  </div>
-  -->
+  </div> <!-- end of who am I section -->
+
 
   <!-- The Tour Section -->
   <!--
@@ -175,17 +187,19 @@ body {font-family: "Lato", sans-serif}
   
 
   <!-- The Contact Section -->
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="contact">
     <h2 class="w3-wide w3-center">CONTACT</h2>
     <p class="w3-opacity w3-center"><i>Don't hesitate to contact!</i></p>
     <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
+    <!--  <div class="w3-col m6 w3-large w3-margin-bottom"> -->
         <i class="fa fa-map-marker" style="width:30px"></i> Athens, OHIO, US<br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: +1 740-818-9335<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: mr095415@ohio.edu<br>
-      </div>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: <a href=tel:7408189335>740-818-9335</a><br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: <a href=mailto:mr095415@ohio.edu>mr095415@ohio.edu</a><br>
+
+
+      <!--
       <div class="w3-col m6">
-        <form action="/action_page.php" target="_blank">
+        <form action="./action_page.php" method="post" target="_blank">
           <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
             <div class="w3-half">
               <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
@@ -198,6 +212,7 @@ body {font-family: "Lato", sans-serif}
           <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
         </form>
       </div>
+     -->
     </div>
   </div>
   
@@ -205,17 +220,29 @@ body {font-family: "Lato", sans-serif}
 </div>
 
 <!-- Image of location/map -->
+<!--
 <img src="./w3images/athens.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+-->
+
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-ligh-grey w3-xlarge">
   <!--
   <i class="fa fa-facebook-official w3-hover-opacity"></i>
   <i class="fa fa-instagram w3-hover-opacity"></i>
   <i class="fa fa-snapchat w3-hover-opacity"></i>
   <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i> -->
-  <i class="fa fa-linkedin w3-hover-opacity" href="http://www.google.com" target="_blank"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i> 
+  -->
+  <a href="https://www.linkedin.com/in/mehdi-rezaie/" target="_blank">
+	<i class="fa fa-linkedin w3-hover-opacity"></i>
+  </a>
+  <a href="https://github.com/mehdirezaie" target="_blank">
+   <i class="fa fa-github w3-hover-opacity"></i>
+  </a>
+  <a href="https://scholar.google.com/citations?user=Tn8QvJcAAAAJ&hl=en&authuser=1" target="_blank">
+  <i class="ai ai-google-scholar-square w3-hover-opacity"></i>
+  </a>
   <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
